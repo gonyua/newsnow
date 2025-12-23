@@ -140,6 +140,16 @@
     "color": "gray",
     "interval": 600000
   },
+  "xiaohongshu": {
+    "title": "热榜",
+    "name": "小红书",
+    "type": "hottest",
+    "desc": "来自 Explore 页面推荐",
+    "column": "china",
+    "home": "https://www.xiaohongshu.com",
+    "color": "red",
+    "interval": 1800000
+  },
   "hupu": {
     "title": "主干道热帖",
     "name": "虎扑",

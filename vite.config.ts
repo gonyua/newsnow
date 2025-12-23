@@ -14,6 +14,9 @@ dotenv.config({
 })
 
 export default defineConfig({
+  server: {
+    host: true,
+  },
   resolve: {
     alias: {
       "~": join(projectDir, "src"),

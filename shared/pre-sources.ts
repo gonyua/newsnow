@@ -114,6 +114,16 @@ export const originSources = {
     color: "gray",
     home: "https://www.douyin.com",
   },
+  "xiaohongshu": {
+    name: "小红书",
+    title: "热榜",
+    type: "hottest",
+    column: "china",
+    color: "red",
+    interval: Time.Common,
+    desc: "来自 Explore 页面推荐",
+    home: "https://www.xiaohongshu.com",
+  },
   "hupu": {
     name: "虎扑",
     home: "https://hupu.com",
