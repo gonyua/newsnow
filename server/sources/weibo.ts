@@ -35,6 +35,7 @@ export default defineSource(async () => {
         const flagUrl = {
           新: "https://simg.s.weibo.com/moter/flags/1_0.png",
           热: "https://simg.s.weibo.com/moter/flags/2_0.png",
+          爆: "https://simg.s.weibo.com/moter/flags/4_0.png",
         }[$flag]
         hotNews.push({
           id: title,
@@ -42,7 +43,7 @@ export default defineSource(async () => {
           url: `${baseurl}${href}`,
           mobileUrl: `${baseurl}${href}`,
           extra: {
-            icon: flagUrl ? { url: proxyPicture(flagUrl), scale: 1.5 } : undefined,
+            icon: flagUrl ? { url: flagUrl, scale: 1.5 } : undefined,
           },
         })
       }
